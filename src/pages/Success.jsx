@@ -1,10 +1,9 @@
-import { useEffect } from "react"
-import { useLocation } from "react-router"
-import { userRequest } from "../requestMethods"
+
+
+
 
 const Success = () => {
-    const location = useLocation()
-    const data = location.state.data
+     
 
     //TODO
     //Create an order
